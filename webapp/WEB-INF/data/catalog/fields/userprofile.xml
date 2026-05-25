@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="assetdialogtreestatus" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[assetdialogtreestatus]]></language> 
+    </name> 
+  </property>  
+  <property id="lastcatalog" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[lastcatalog]]></language> 
+    </name> 
+  </property>  
+  <property id="sidebarwidth" index="true" deleted="false" editable="true" stored="true">New
+    <name>
+      <language id="en"><![CDATA[sidebarwidth]]></language>
+    </name>
+  </property>
+</properties>
