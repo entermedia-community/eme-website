@@ -1,0 +1,12 @@
+
+<root>
+  <data toplevelentity="entityasset" ordering="2" id="AZ5gic73TN0MFq1KqS6A">
+    <name><![CDATA[Entity Assets]]></name>
+  </data>
+  <data toplevelentity="librarycollection" ordering="1" id="AZ5gic8CTN0MFq1KqS6B">
+    <name><![CDATA[Projects]]></name>
+  </data>
+  <data toplevelentity="userpost" ordering="5" id="AZ5gic8MTN0MFq1KqS6C">
+    <name><![CDATA[Blogs]]></name>
+  </data>
+</root>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <data id="librarycollectionentityasset" renderexternalid="librarycollection" rendertable="entityasset" ordering="1779736103595" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection"> 
+    <name><![CDATA[Entity Assets]]></name> 
+  </data>  
+  <data id="entityassetentityassetpage" renderexternalid="entityasset" rendertable="entityassetpage" ordering="1779736103641" systemdefined="false" rendertype="entitysubmodules" moduleid="entityasset"> 
+    <name><![CDATA[Asset Page]]></name> 
+  </data>  
+  <data id="librarycollectionbankaccount" renderexternalid="librarycollection" rendertable="bankaccount" ordering="1779736103991" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection"> 
+    <name><![CDATA[Bank Accounts]]></name> 
+  </data>  
+  <data id="librarycollectionprojectgoal" renderexternalid="librarycollection" rendertable="projectgoal" ordering="1779736104163" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection"> 
+    <name><![CDATA[Goals]]></name> 
+  </data>  
+  <data id="librarycollectioncollectiveproduct" renderexternalid="librarycollection" rendertable="collectiveproduct" ordering="1779736104301" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection"> 
+    <name><![CDATA[Products]]></name> 
+  </data>  
+  <data id="librarycollectioncollectiveinvoice" renderexternalid="librarycollection" rendertable="collectiveinvoice" ordering="1779736104480" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection"> 
+    <name><![CDATA[Invoices]]></name> 
+  </data>  
+  <data id="librarycollectionuserpost" renderexternalid="librarycollection" rendertable="userpost" ordering="1779736104526" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection">
+    <name><![CDATA[Blogs]]></name>
+  </data>
+</root>

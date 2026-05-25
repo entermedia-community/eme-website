@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <data id="entityasset" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="image-fill">
+    <name><![CDATA[Entity Assets]]></name>
+  </data>  
+  <data id="entityassetpage" autocreatedeep="0" showonsearch="true" securityenabled="false" ordering="300" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="file-earmark-richtext">
+    <name><![CDATA[Asset Page]]></name>
+  </data>  
+  <data id="librarycollection" showonsearch="true" securityenabled="false" ordering="1" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="person-arms-up">
+    <name><![CDATA[Projects]]></name>
+  </data>  
+  <data id="bankaccount" moduleicon="coin" isentity="true">
+    <name>
+      <language id="en"><![CDATA[Bank Accounts]]></language>
+    </name>
+  </data>  
+  <data id="projectgoal" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="check-square">
+    <name><![CDATA[Goals]]></name>
+  </data>  
+  <data id="collectiveproduct" moduleicon="shop-window" isentity="true">
+    <name>
+      <language id="en"><![CDATA[Products]]></language>
+    </name>
+  </data>  
+  <data id="collectiveinvoice" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="folder">
+    <name><![CDATA[Invoices]]></name>
+  </data>  
+  <data id="userpost" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="rss">
+    <name><![CDATA[Blogs]]></name>
+  </data> 
+</root>
