@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page>
+  <property name="siteid">website</property>
+  <property name="applicationid">website</property>
+  <property name="fallbackdirectory">/eme</property>
+  <property name="catalogid">catalog</property>
+
+  <permission name="view">
+    <boolean value="true"/>
+  </permission>
+</page>
