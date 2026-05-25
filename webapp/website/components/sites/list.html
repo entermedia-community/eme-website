@@ -1,0 +1,50 @@
+#set($sites = [
+	[
+    "BuildStack",
+    "buildstack.eme.world",
+    "technology",
+    "🛠️",
+    "av-purple",
+    "The go-to EME community for SaaS founders and dev tool builders. Share product updates, get beta testers, and connect with engineers who are shipping fast.",
+    "3,200"
+	],
+	[
+    "ShopForge",
+    "shopforge.eme.world",
+    "ecommerce",
+    "🛒",
+    "av-orange",
+    "Built for DTC brand founders and e-commerce entrepreneurs. Discuss acquisition channels, supply chain wins, and the unglamorous truth of building an online store.",
+    "2,800"
+	],
+	[
+    "WellRoot",
+    "wellroot.eme.world",
+    "health",
+    "🌿",
+    "av-green",
+    "A community for health-tech founders, wellness brand builders, and practitioners creating the future of personal health. FDA pathways, funding, and patient acquisition.",
+    "1,450"
+	]
+])
+
+#foreach($site in $sites)
+  $context.putPageValue("name", $site[0])
+  $context.putPageValue("url", $site[1])
+  $context.putPageValue("category", $site[2])
+  $context.putPageValue("icon", $site[3])
+  $context.putPageValue("avatar", $site[4])
+  $context.putPageValue("description", $site[5])
+  $context.putPageValue("members", $site[6])
+
+  $pages.include("/${applicationid}/components/sites/card.html", $context)
+#end
+
+#if($sites.size() == 0)
+<div class="empty-state">
+  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+  </svg>
+  <p>No sites match your filter. Try a different category or search term.</p>
+</div>
+#end

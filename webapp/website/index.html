@@ -1,0 +1,62 @@
+<section class="hero">
+  <h1>Find your <span>community site</span> and start building</h1>
+  <p>EME is a federated incubator platform. Each site is an independent community for startups, creators, and businesses in a specific industry. Pick one and grow.</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><strong>000</strong><span>Active Sites</span></div>
+    <div class="hero-stat"><strong>000</strong><span>Members</span></div>
+    <div class="hero-stat"><strong>000</strong><span>Businesses Launched</span></div>
+    <div class="hero-stat"><strong>00</strong><span>Countries</span></div>
+  </div>
+</section>
+
+<div class="filter-bar" id="sites">
+  <div class="filter-inner">
+    <div class="filter-search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" id="searchInput" placeholder="Search sites…" autocomplete="off">
+    </div>
+    <div class="filter-chips" id="filterChips">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="technology">Technology</button>
+      <button class="chip" data-filter="ecommerce">E-Commerce</button>
+      <button class="chip" data-filter="health">Health</button>
+    </div>
+    <span class="filter-count" id="filterCount"></span>
+  </div>
+</div>
+
+<section class="sites-section">
+  <div class="sites-inner">
+    <div class="sites-grid" id="sitesGrid">
+      $pages.include("/${applicationid}/components/sites/list.html")
+    </div>
+  </div>
+</section>
+
+
+<section class="how" id="how-it-works">
+  <h1 style="text-align: center;margin-bottom: 2rem;">How <span>EME</span> Works</h1>
+  <div class="how-inner">
+    <div class="how-card">
+      <div class="how-icon">🎯</div>
+      <h3>Choose a site</h3>
+      <p>Browse sites organized by industry and focus area. Each site is independently operated and has its own community culture and resources.</p>
+    </div>
+    <div class="how-card">
+      <div class="how-icon">🤝</div>
+      <h3>Join the community</h3>
+      <p>Connect with founders, investors, and collaborators who share your focus. Your profile is yours across the entire EME network.</p>
+    </div>
+    <div class="how-card">
+      <div class="how-icon">🚀</div>
+      <h3>Build in public</h3>
+      <p>Share updates, get feedback, and showcase your work. EME gives every project the visibility and support it needs to grow.</p>
+    </div>
+    <div class="how-card">
+      <div class="how-icon">🌐</div>
+      <h3>Launch your own</h3>
+      <p>Don't see a site for your niche? Spin up a new EME site for your industry in minutes and grow your own incubator community.</p>
+    </div>
+  </div>
+</section>
+

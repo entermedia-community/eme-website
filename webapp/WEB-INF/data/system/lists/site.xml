@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <data id="website" catalogid="catalog" domains="web.localhost.com" rootpath="/website">
+    <name><![CDATA[Web]]></name>
+  </data> 
+</root>
