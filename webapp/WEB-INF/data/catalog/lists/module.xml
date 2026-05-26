@@ -25,8 +25,8 @@
   <data id="userpost" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="rss"> 
     <name><![CDATA[Blogs]]></name> 
   </data>  
-  <data id="emesites" showonsearch="false" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="false" moduleicon="folder">
-    <name><![CDATA[Sites]]></name>
+  <data id="emesites" showonsearch="false" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="false" moduleicon="folder"> 
+    <name><![CDATA[Sites]]></name> 
   </data>  
   <data id="entityarticle" showonsearch="true" securityenabled="false" ordering="0" isentity="true" enableuploading="false" moduleicon="file-earmark-post" moduleresultsview="table" semanticenabled="true" autocreateentities="false" uploadsourcepath="Articles/${data.entity_date.YYYY}/${data.name}"> 
     <name><![CDATA[Articles]]></name> 
@@ -115,8 +115,8 @@
   <data id="category" showonsearch="false" securityenabled="false" ordering="60" moduleresultsview="gallery" semanticenabled="false" autocreateentities="false" isentity="false" enableuploading="false" moduleicon="category"> 
     <name><![CDATA[Folders]]></name> 
   </data>  
-  <data id="asset" showonsearch="true" securityenabled="false" ordering="115" moduleresultsview="table" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="image"> 
-    <name><![CDATA[Files]]></name> 
+  <data id="asset" showonsearch="true" securityenabled="false" ordering="115" moduleresultsview="table" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="image">
+    <name><![CDATA[Files]]></name>
   </data>  
   <data id="socialmediaprofile" showonsearch="false" securityenabled="false" ordering="120" moduleresultsview="table" semanticenabled="false" autocreateentities="false" isentity="false" enableuploading="false" moduleicon="folder-check"> 
     <name><![CDATA[Media Profile]]></name> 

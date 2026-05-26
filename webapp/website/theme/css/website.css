@@ -120,8 +120,11 @@ nav {
 	border-radius: 999px;
 	margin-bottom: 20px;
 }
-.hero h1 {
+.chat-landing h1 {
 	font-size: clamp(2rem, 5vw, 3.2rem);
+}
+.hero h1 {
+	font-size: clamp(1rem, 5vw, 2.2rem);
 	font-weight: 800;
 	letter-spacing: -0.03em;
 	line-height: 1.15;
@@ -577,4 +580,11 @@ footer {
 	.sites-grid {
 		grid-template-columns: 1fr;
 	}
+}
+.chat-input-container {
+	margin: 0 0 32px;
+	width: 100%;
+}
+.chat-input-wrap {
+	background: transparent;
 }
