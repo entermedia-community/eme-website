@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "/Users/hi/Projects/entermedia/eme-website",
+			"path": "/home/shanti/git/eme-website",
 		},
 		{
-			"path": "/usr/local/lib/eme-lib",
+			"path": "../eme-lib",
 		},
 	],
 	"settings": {

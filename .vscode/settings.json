@@ -3,11 +3,11 @@
 		"**/index.min.js": true,
 		"**/indexdefer.min.css": true
 	},
-	"java.jdt.ls.java.home": "/Users/hi/.sdkman/candidates/java/current",
+	"java.jdt.ls.java.home": "/home/shanti/programs/jdk-22.0.1",
 	"java.configuration.runtimes": [
 		{
 			"name": "JavaSE",
-			"path": "/Users/hi/.sdkman/candidates/java/current"
+			"path": "/home/shanti/programs/jdk-22.0.1"
 		}
 	]
 }
