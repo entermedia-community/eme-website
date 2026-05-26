@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="emeservermodulefields" menulevel="toplevel" moduleid="emeserver" parentid="emeserverviews" path="/views/settings/modules/emeserver/metadata/properties/index.html" ordering="20">Fields Setup</property>  
+  <property id="emeserverviews" moduleid="emeserver" parentid="emeserverviews" path="/views/settings/modules/emeserver/metadata/views/index.html" ordering="120">Edit Views</property>  
+  <property id="emeserversystemviews" moduleid="emeserver" parentid="emeserverviews" path="/views/settings/modules/emeserver/metadata/viewssystem/index.html" ordering="150">Application Views</property>  
+  <property id="emeservermodulepermissions" menulevel="toplevel" moduleid="emeserver" parentid="emeserver" path="/views/settings/modules/emeserver/permissions/enabled.html" ordering="20">Permissions</property> 
+</properties>

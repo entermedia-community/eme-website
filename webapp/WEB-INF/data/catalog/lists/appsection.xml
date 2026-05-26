@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root> 
-  <appsection id="AZ5gic73TN0MFq1KqS6A" toplevelentity="entityasset" ordering="2">Entity Assets</appsection>
-  <appsection id="AZ5gic8CTN0MFq1KqS6B" toplevelentity="librarycollection" ordering="1">Projects</appsection>
-  <appsection id="AZ5gic8MTN0MFq1KqS6C" toplevelentity="userpost" ordering="5">Blogs</appsection>
+  <appsection id="AZ5gic73TN0MFq1KqS6A" toplevelentity="entityasset" ordering="2">Entity Assets</appsection>  
+  <appsection id="AZ5gic8CTN0MFq1KqS6B" toplevelentity="librarycollection" ordering="1">Projects</appsection>  
+  <appsection id="AZ5gic8MTN0MFq1KqS6C" toplevelentity="userpost" ordering="5">Blogs</appsection>  
   <appsection id="AZ5gic73TN0MFq1KqS6A" toplevelentity="entityasset" ordering="2">Entity Assets</appsection>
   <appsection id="AZ5gic8CTN0MFq1KqS6B" toplevelentity="librarycollection" ordering="1">Projects</appsection>
   <appsection id="AZ5gic8MTN0MFq1KqS6C" toplevelentity="userpost" ordering="5">Blogs</appsection>
