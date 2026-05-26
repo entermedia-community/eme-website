@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<properties> 
+<properties>
   <property id="databasecurrentsearch" index="true" deleted="false" editable="true" stored="true">New 
-    <name> 
-      <language id="en"><![CDATA[databasecurrentsearch]]></language> 
-    </name> 
-  </property>  
+    <name>
+      <language id="en"><![CDATA[databasecurrentsearch]]></language>
+    </name>
+  </property>
   <property id="featuredsitesort" index="true" deleted="false" editable="true" stored="true">New
     <name>
       <language id="en"><![CDATA[featuredsitesort]]></language>
