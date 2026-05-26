@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="id" index="true" editable="true" keyword="true" sortable="true">
+    <name>
+      <language id="en"><![CDATA[Id]]></language>
+    </name>
+  </property>
+
+  <property id="name" required="true" index="true" stored="true" multilanguage="false" editable="true" keyword="true">
+    <name>
+      <language id="en"><![CDATA[Name]]></language>
+    </name>
+  </property>
+
+  <property id="longdescription" internalfield="false" defaultoperation="freeform" index="true" stored="true" editable="true" sortable="true" multilanguage="false">Description
+    <name>
+      <language id="en"><![CDATA[Description]]></language>
+    </name>
+  </property>
+
+  <property id="category" index="true" stored="true" editable="true" type="list" viewtype="dropdown" listid="featuredsitecategory">
+    <name>
+      <language id="en"><![CDATA[Category]]></language>
+    </name>
+  </property>
+
+  <property id="sitelogo" index="true" stored="true" editable="true" type="list" viewtype="asset" listid="asset" datatype="list" sourcepath="${data.sourcepath}/${filename}">
+    <name>
+      <language id="en"><![CDATA[Logo]]></language>
+    </name>
+  </property>
+
+  <property id="url" index="true" stored="true" editable="true" type="string">
+    <name>
+      <language id="en"><![CDATA[URL]]></language>
+    </name>
+  </property>
+
+</properties>
