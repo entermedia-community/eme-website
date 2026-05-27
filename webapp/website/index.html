@@ -1,57 +1,60 @@
-<section class="hero">
-  <p>
-    [[Collaborate with the Right People, Resources, and create a Collective Intelligence on EME.]] 
-  </p>
-  <div class="chat-input-container">
-    <div class="filter-chips" id="filterChips">
-      <button class="chip active" data-filter="all">All</button>
-      <button class="chip" data-filter="technology">Technology</button>
-      <button class="chip" data-filter="ecommerce">E-Commerce</button>
-      <button class="chip" data-filter="health">Health</button>
-      <button class="chip" data-filter="finance">Finance</button>
-      <button class="chip" data-filter="education">Education</button>
-      <button class="chip" data-filter="art">Art</button> 
-      <button class="chip" data-filter="sports">Sports</button>
-      <button class="chip" data-filter="sustainability">Sustainability</button>
+
+<div style="background: linear-gradient(135deg, #1f2d20 0%, #1a2230 55%, #16271e 100%);">
+  <section class="hero">
+    <p>
+      [[Collaborate with the Right People, Resources, and create a Collective Intelligence on EME.]] 
+    </p>
+    <div class="chat-input-container">
+      <div class="filter-chips" id="filterChips">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="technology">Technology</button>
+        <button class="chip" data-filter="ecommerce">E-Commerce</button>
+        <button class="chip" data-filter="health">Health</button>
+        <button class="chip" data-filter="finance">Finance</button>
+        <button class="chip" data-filter="education">Education</button>
+        <button class="chip" data-filter="art">Art</button> 
+        <button class="chip" data-filter="sports">Sports</button>
+        <button class="chip" data-filter="sustainability">Sustainability</button>
+      </div>
+      $pages.include("/${applicationid}/components/chat-dashboard/chat-input.html", $context)
     </div>
-    $pages.include("/${applicationid}/components/chat-dashboard/chat-input.html", $context)
-  </div>
-
- 
-  <div class="hero-stats">
-    <div class="hero-stat"><strong>137</strong><span>Profiles</span></div>
-    <div class="hero-stat"><strong>12</strong><span>Servers</span></div>
-    <div class="hero-stat"><strong>6550</strong><span>Documents</span></div>
-    <div class="hero-stat"><strong>32</strong><span>Countries</span></div>
-  </div>
-
-
-</section>
-
-
-<div class="filter-bar" id="searchBar">
-  <div class="filter-inner">
-    <div class="filter-search">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="search" id="searchInput" placeholder="EME Profiles" autocomplete="off">
+  
+   
+    <div class="hero-stats">
+      <div class="hero-stat"><strong>137</strong><span>Profiles</span></div>
+      <div class="hero-stat"><strong>12</strong><span>Servers</span></div>
+      <div class="hero-stat"><strong>6550</strong><span>Documents</span></div>
+      <div class="hero-stat"><strong>32</strong><span>Countries</span></div>
     </div>
-    <div class="filter-chips" id="filterChips">
-      <button class="chip active" data-filter="all">All</button>
-      <button class="chip" data-filter="emeprofiles">Profiles</button>
-      <button class="chip" data-filter="emesites">Servers</button>
+  
+  
+  </section>
+  
+  
+  <div class="filter-bar" id="searchBar">
+    <div class="filter-inner">
+      <div class="filter-search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="searchInput" placeholder="EME Profiles" autocomplete="off">
+      </div>
+      <div class="filter-chips" id="filterChips">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="emeprofiles">Profiles</button>
+        <button class="chip" data-filter="emesites">Servers</button>
+      </div>
+      <span class="filter-count" id="filterCount"></span>
     </div>
-    <span class="filter-count" id="filterCount"></span>
   </div>
+  
+  <section class="sites-section">
+    <div class="sites-inner">
+      <div class="sites-grid" id="sitesGrid">
+        $pages.include("/${applicationid}/components/sites/list.html")
+      </div>
+    </div>
+  </section>
+
 </div>
-
-<section class="sites-section">
-  <div class="sites-inner">
-    <div class="sites-grid" id="sitesGrid">
-      $pages.include("/${applicationid}/components/sites/list.html")
-    </div>
-  </div>
-</section>
-
 
 <section class="how" id="how-it-works">
   <h1 style="text-align: center;margin-bottom: 2rem;">How to create your own <span>EME</span></h1>

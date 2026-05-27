@@ -30,7 +30,7 @@ body {
 }
 
 nav {
-	background: rgba(16, 20, 24, 0.84);
+	background: rgba(16, 20, 24, 0.95);
 	border-bottom-color: var(--border);
 }
 
@@ -40,7 +40,7 @@ nav {
 }
 
 .hero {
-	background: linear-gradient(135deg, #1f2d20 0%, #1a2230 55%, #16271e 100%);
+	background: transparent;
 }
 
 h1 span {
@@ -162,10 +162,10 @@ footer {
 	border-top-color: #1a2129;
 }
 .filter-bar {
-	border-bottom: 1px solid #2b3b4a;
-	background: #212e3b;
-}
-
-.sites-section {
-	background: #212e3b;
+	border: 1px solid #2b3b4a;
+	border-radius: 36px;
+	background: rgba(31, 44, 57, 0.9);
+	backdrop-filter: blur(10px);
+	max-width: 1200px;
+	margin: 16px auto 0;
 }
