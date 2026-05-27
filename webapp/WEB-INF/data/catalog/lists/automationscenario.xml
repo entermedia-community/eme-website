@@ -1,16 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 
-<root> 
-  <data id="asset_hotfolder_scanning" isrunning="false" isvisible="true" lastrunstart="2026-05-28 03:44:10 +0600" ordering="50" scenarioicon="folder-fill" enabled="true" connectedtop="importinglabel"> 
-    <name><![CDATA[Hot Folder Scanning]]></name> 
-  </data>  
-  <data id="informatics" isrunning="false" isvisible="true" lastrunstart="2026-05-28 03:54:10 +0600" ordering="30" scenarioicon="robot" enabled="true" connectedtop="importinglabel"> 
-    <name><![CDATA[Automated Classification]]></name> 
-  </data>  
-  <data id="smartcreator_processtutorials" isrunning="false" isvisible="true" lastrunstart="2026-05-28 03:54:10 +0600" ordering="20" enabled="true" connectedtop="contentcreationlabel">
+<root>
+  <data id="smartcreator_processtutorials" isrunning="false" isvisible="true" lastrunstart="2026-05-28 04:34:10 +0600" ordering="20" enabled="true" connectedtop="contentcreationlabel">
     <name><![CDATA[Auto Create Tutorials]]></name>
-  </data>  
-  <data id="smartcreator_processarticles" isrunning="false" isvisible="true" lastrunstart="2026-05-28 03:54:10 +0600" ordering="20" enabled="true" connectedtop="contentcreationlabel"> 
-    <name><![CDATA[Auto Create Articles]]></name> 
-  </data> 
+  </data>
 </root>

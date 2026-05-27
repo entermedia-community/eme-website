@@ -93,10 +93,10 @@ nav {
 	object-fit: contain;
 }
 .nav-logo span {
-	font-size: 0.85rem;
-	font-weight: 600;
+	font-size: 0.8rem;
+	font-weight: 700;
 	text-transform: uppercase;
-	color: #748a55;
+	color: #ffffff;
 }
 .nav-links {
 	display: flex;
@@ -166,8 +166,8 @@ h1 span {
 .hero p {
 	max-width: 560px;
 	margin: 0 auto 36px;
-	font-size: 1.1rem;
-	color: var(--text-muted);
+	font-size: 1.3rem;
+	color: #ffffff;
 }
 .hero-stats {
 	display: inline-flex;
@@ -238,7 +238,7 @@ h1 span {
 
 .filter-bar {
 	position: sticky;
-	top: 60px;
+	top: 72px;
 	z-index: 90;
 	background: var(--surface);
 	border-bottom: 1px solid var(--border);
