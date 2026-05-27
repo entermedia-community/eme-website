@@ -612,3 +612,18 @@ footer {
 .chat-input-wrap {
 	background: transparent;
 }
+.cta-section {
+	background: var(--surface);
+	padding: 60px 24px;
+	text-align: center;
+}
+.cta-section h2 {
+	font-size: clamp(1.5rem, 2rem);
+	font-weight: 800;
+	letter-spacing: -0.03em;
+	margin-bottom: 24px;
+}
+.cta-section .site-cta {
+	font-size: 0.9rem;
+	padding: 12px 24px;
+}
