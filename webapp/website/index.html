@@ -3,6 +3,12 @@
         [[Find EME Profiles and Specilized Servers. Connect with the Right People, Resources, and create a Collective Intelligence.]] 
   </p>
   <div class="chat-input-container">
+    <div class="filter-chips" id="filterChips">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="technology">Technology</button>
+      <button class="chip" data-filter="ecommerce">E-Commerce</button>
+      <button class="chip" data-filter="health">Health</button>
+    </div>
     $pages.include("/${applicationid}/components/chat-dashboard/chat-input.html", $context)
   </div>
 

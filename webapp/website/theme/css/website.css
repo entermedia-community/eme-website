@@ -250,6 +250,10 @@ h1 span {
 	flex-wrap: wrap;
 	gap: 6px;
 }
+.chat-input-container .filter-chips {
+	max-width: 820px;
+	margin: 0 auto;
+}
 .chip {
 	padding: 6px 14px;
 	border-radius: 999px;
@@ -352,6 +356,7 @@ h1 span {
 	line-height: 1.55;
 	flex: 1;
 	display: -webkit-box;
+	line-clamp: 3;
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
