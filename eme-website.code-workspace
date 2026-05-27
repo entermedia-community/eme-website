@@ -1,11 +1,14 @@
 {
 	"folders": [
 		{
-			"path": ".",
+			"path": "/home/shanti/git/eme-website"
 		},
 		{
-			"path": "../eme-lib",
+			"path": "/home/shanti/git/eme-lib"
 		},
+		{
+			"path": "../plan-web3"
+		}
 	],
 	"settings": {
 		"java.autobuild.enabled": true,

@@ -1,3 +1,3 @@
 <page>
-  <inner-layout>/${applicationid}/theme/layouts/layouts.html</inner-layout>
+  <inner-layout>/${applicationid}/theme/layouts/layout.html</inner-layout>
 </page>

@@ -58,17 +58,13 @@ nav {
 	height: 60px;
 }
 .nav-logo {
-	font-size: 1.2rem;
-	font-weight: 800;
-	letter-spacing: -0.5px;
-	color: var(--brand);
 	display: flex;
 	align-items: center;
 	gap: 8px;
 }
-.nav-logo svg {
-	width: 28px;
-	height: 28px;
+.nav-logo img {
+	width: 200px;
+	height: 57px;
 }
 .nav-links {
 	display: flex;
@@ -102,7 +98,7 @@ nav {
 }
 
 .hero {
-	background: linear-gradient(135deg, #f5f2ff 0%, #eef5ff 60%, #f0fff4 100%);
+	background: linear-gradient(135deg, #728c41 0%, #f5f2ff 60%, #728c41 100%);
 	padding: 80px 24px 64px;
 	text-align: center;
 }
