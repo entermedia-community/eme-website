@@ -39,6 +39,25 @@ a {
 	text-decoration: none;
 }
 
+.soft-scrollbar {
+	overflow: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #e0e0e0 #fff;
+}
+
+.soft-scrollbar::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	background: #e0e0e0;
+}
+
+.soft-scrollbar::-webkit-scrollbar-thumb {
+	background: #e0e0e0;
+}
+
+.soft-scrollbar::-webkit-scrollbar-track {
+	background: var(--light-bg);
+}
 nav {
 	position: sticky;
 	top: 0;
@@ -253,6 +272,10 @@ h1 span {
 .chat-input-container .filter-chips {
 	max-width: 820px;
 	margin: 0 auto;
+	justify-content: center;
+}
+.chat-input-container .chat-textarea {
+	min-height: 80px;
 }
 .chip {
 	padding: 6px 14px;
