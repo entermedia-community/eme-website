@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<properties>
+<properties> 
   <property id="databasecurrentsearch" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[databasecurrentsearch]]></language> 
+    </name> 
+  </property>  
+  <property id="featuredsitesort" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[featuredsitesort]]></language> 
+    </name> 
+  </property>  
+  <property id="assetdialogtreestatus" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[assetdialogtreestatus]]></language> 
+    </name> 
+  </property>  
+  <property id="lastcatalog" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[lastcatalog]]></language> 
+    </name> 
+  </property>  
+  <property id="view_emeprofilegeneral" index="true" deleted="false" editable="true" stored="true">New
     <name>
-      <language id="en"><![CDATA[databasecurrentsearch]]></language>
-    </name>
-  </property>
-  <property id="featuredsitesort" index="true" deleted="false" editable="true" stored="true">New
-    <name>
-      <language id="en"><![CDATA[featuredsitesort]]></language>
+      <language id="en"><![CDATA[view_emeprofilegeneral]]></language>
     </name>
   </property>
 </properties>

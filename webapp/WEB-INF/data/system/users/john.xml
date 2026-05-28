@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<user enabled="false">
+  <user-name><![CDATA[john]]></user-name>
+  <password><![CDATA[DES:uJbKvpX0Y4o=]]></password>
+  <properties>
+    <property name=".version" value="1"/>
+    <property name="firstName" value="John"/>
+    <property name="lastName" value="Doe"/>
+    <property name="creationdate" value="Fri May 29 03:11:18 GMT+06:00 2026"/>
+    <property name="password" value="DES:uJbKvpX0Y4o="/>
+    <property name="virtual" value="false"/>
+    <property name="enabled" value="false"/>
+    <property name="email" value="john@example.com"/>
+  </properties>
+</user>
