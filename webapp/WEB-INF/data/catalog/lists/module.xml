@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root> 
-  <data id="entityasset" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="image-fill"> 
-    <name><![CDATA[Entity Assets]]></name> 
+  <data id="entityasset" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="image-fill">
+    <name><![CDATA[Entity Assets]]></name>
   </data>  
-  <data id="entityassetpage" autocreatedeep="0" showonsearch="true" securityenabled="false" ordering="300" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="file-earmark-richtext"> 
-    <name><![CDATA[Asset Page]]></name> 
+  <data id="entityassetpage" autocreatedeep="0" showonsearch="true" securityenabled="false" ordering="300" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="file-earmark-richtext">
+    <name><![CDATA[Asset Page]]></name>
   </data>  
-  <data id="librarycollection" showonsearch="true" securityenabled="false" ordering="1" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="person-arms-up"> 
-    <name><![CDATA[Projects]]></name> 
+  <data id="librarycollection" showonsearch="true" securityenabled="false" ordering="1" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="person-arms-up">
+    <name><![CDATA[Teams]]></name>
   </data>  
-  <data id="bankaccount" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="coin"> 
-    <name><![CDATA[Bank Accounts]]></name> 
+  <data id="bankaccount" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="coin">
+    <name><![CDATA[Bank Accounts]]></name>
   </data>  
-  <data id="projectgoal" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="check-square"> 
-    <name><![CDATA[Goals]]></name> 
+  <data id="projectgoal" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="check-square">
+    <name><![CDATA[Goals]]></name>
   </data>  
-  <data id="collectiveproduct" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="shop-window"> 
-    <name><![CDATA[Products]]></name> 
+  <data id="collectiveproduct" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="shop-window">
+    <name><![CDATA[Products]]></name>
   </data>  
-  <data id="collectiveinvoice" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="folder"> 
-    <name><![CDATA[Invoices]]></name> 
+  <data id="collectiveinvoice" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="folder">
+    <name><![CDATA[Invoices]]></name>
   </data>  
-  <data id="userpost" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="rss"> 
-    <name><![CDATA[Blogs]]></name> 
+  <data id="userpost" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="rss">
+    <name><![CDATA[Blogs]]></name>
   </data>  
   <data id="emesites" showonsearch="false" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="false" moduleicon="folder"> 
     <name><![CDATA[Sites]]></name> 
@@ -133,7 +133,10 @@
   <data id="desktopsyncfolder" showonsearch="false" securityenabled="false" ordering="300" moduleresultsview="table" semanticenabled="false" autocreateentities="false" isentity="false" enableuploading="false" moduleicon="folder-check"> 
     <name><![CDATA[Remote Desktop Sync Folders]]></name> 
   </data>  
-  <data id="emeserver" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="folder"> 
-    <name><![CDATA[EME Servers]]></name> 
+  <data id="emeserver" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="folder">
+    <name><![CDATA[EME Servers]]></name>
   </data>  
+  <data id="emeprofile" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="people-fill">
+    <name><![CDATA[EME Profiles]]></name>
+  </data> 
 </root>

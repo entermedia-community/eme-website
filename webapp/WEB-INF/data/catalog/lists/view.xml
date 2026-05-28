@@ -19,7 +19,10 @@
   <data id="librarycollectioncollectiveinvoice" renderexternalid="librarycollection" rendertable="collectiveinvoice" ordering="1779736104480" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection"> 
     <name><![CDATA[Invoices]]></name> 
   </data>  
-  <data id="librarycollectionuserpost" renderexternalid="librarycollection" rendertable="userpost" ordering="1779736104526" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection">
-    <name><![CDATA[Blogs]]></name>
+  <data id="librarycollectionuserpost" renderexternalid="librarycollection" rendertable="userpost" ordering="1779736104526" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection"> 
+    <name><![CDATA[Blogs]]></name> 
+  </data>  
+  <data id="emeprofileentityasset" renderexternalid="emeprofile" rendertable="entityasset" ordering="1780002117229" systemdefined="false" rendertype="entitysubmodules" moduleid="emeprofile">
+    <name><![CDATA[Entity Assets]]></name>
   </data>
 </root>
