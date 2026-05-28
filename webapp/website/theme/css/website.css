@@ -129,6 +129,28 @@ nav {
 	transform: translateY(-1px);
 }
 
+.bg-light {
+	background-color: #fff;
+	color: #111;
+}
+.full-content {
+	padding:2rem 2.5rem;
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+
+.full-content h2 {
+	margin: 1.5rem 0 1rem;
+}
+.full-content ul {
+	margin-left: 2rem;
+	margin-bottom: 1rem;
+}
+
 .hero {
 	background: linear-gradient(135deg, #728c41 0%, #f5f2ff 60%, #728c41 100%);
 	padding: 80px 24px 64px;
