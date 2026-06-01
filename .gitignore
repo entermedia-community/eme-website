@@ -1,3 +1,5 @@
 tomcat/logs/*
 .DS_Store
 tomcat/work/*
+**/index.min.js
+**/indexdefer.min.js

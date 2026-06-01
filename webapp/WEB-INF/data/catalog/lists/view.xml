@@ -22,7 +22,13 @@
   <data id="librarycollectionuserpost" renderexternalid="librarycollection" rendertable="userpost" ordering="1779736104526" systemdefined="false" rendertype="entitysubmodules" moduleid="librarycollection"> 
     <name><![CDATA[Blogs]]></name> 
   </data>  
-  <data id="emeprofileentityasset" renderexternalid="emeprofile" rendertable="entityasset" ordering="1780002117229" systemdefined="false" rendertype="entitysubmodules" moduleid="emeprofile">
-    <name><![CDATA[Entity Assets]]></name>
+  <data id="emeprofileentityasset" renderexternalid="emeprofile" rendertable="entityasset" ordering="1780002117229" systemdefined="false" rendertype="entitysubmodules" moduleid="emeprofile"> 
+    <name><![CDATA[Entity Assets]]></name> 
+  </data>  
+  <data id="emeprofilelibrarycollection" renderexternalid="emeprofile" rendertable="librarycollection" ordering="1780341045571" systemdefined="false" rendertype="entitysubmodules" moduleid="emeprofile"> 
+    <name><![CDATA[Teams]]></name> 
+  </data>  
+  <data id="emeprofileemeserver" renderexternalid="emeprofile" rendertable="emeserver" ordering="1780341045847" systemdefined="false" rendertype="entitysubmodules" moduleid="emeprofile">
+    <name><![CDATA[EME Servers]]></name>
   </data>
 </root>

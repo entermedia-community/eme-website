@@ -136,7 +136,7 @@
   <data id="emeserver" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="folder"> 
     <name><![CDATA[EME Servers]]></name> 
   </data>  
-  <data id="emeprofile" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="people-fill">
+  <data id="emeprofile" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="person-vcard-fill">
     <name><![CDATA[EME Profiles]]></name>
   </data> 
 </root>
