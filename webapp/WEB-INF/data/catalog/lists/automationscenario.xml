@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root> 
-  <data id="smartcreator_processtutorials" isrunning="false" isvisible="true" lastrunstart="2026-05-31 12:21:55 -0600" ordering="20" enabled="true" connectedtop="contentcreationlabel">
-    <name><![CDATA[Auto Create Tutorials]]></name>
+  <data id="smartcreator_processtutorials" isrunning="false" isvisible="true" lastrunstart="2026-06-01 13:29:53 -0600" ordering="20" enabled="true" connectedtop="contentcreationlabel"> 
+    <name><![CDATA[Auto Create Tutorials]]></name> 
   </data>  
-  <data id="asset_hotfolder_scanning" isrunning="false" isvisible="true" lastrunstart="2026-05-31 12:21:55 -0600" ordering="50" scenarioicon="folder-fill" enabled="true" connectedtop="importinglabel"> 
+  <data id="asset_hotfolder_scanning" isrunning="false" isvisible="true" lastrunstart="2026-06-01 13:29:53 -0600" ordering="50" scenarioicon="folder-fill" enabled="true" connectedtop="importinglabel"> 
     <name><![CDATA[Hot Folder Scanning]]></name> 
   </data>  
-  <data id="smartcreator_processarticles" isrunning="false" isvisible="true" lastrunstart="2026-05-31 12:21:55 -0600" ordering="20" enabled="true" connectedtop="contentcreationlabel"> 
+  <data id="smartcreator_processarticles" isrunning="false" isvisible="true" lastrunstart="2026-06-01 13:29:53 -0600" ordering="20" enabled="true" connectedtop="contentcreationlabel"> 
     <name><![CDATA[Auto Create Articles]]></name> 
   </data>  
-  <data id="informatics" isrunning="false" isvisible="true" lastrunstart="2026-05-31 12:11:55 -0600" ordering="30" scenarioicon="robot" enabled="true" connectedtop="importinglabel"> 
-    <name><![CDATA[Automated Classification]]></name> 
+  <data id="informatics" isrunning="false" isvisible="true" lastrunstart="2026-06-01 13:29:53 -0600" ordering="30" scenarioicon="robot" enabled="true" connectedtop="importinglabel">
+    <name><![CDATA[Automated Classification]]></name>
   </data> 
 </root>

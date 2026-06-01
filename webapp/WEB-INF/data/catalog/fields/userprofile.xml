@@ -21,9 +21,24 @@
       <language id="en"><![CDATA[lastcatalog]]></language> 
     </name> 
   </property>  
-  <property id="view_emeprofilegeneral" index="true" deleted="false" editable="true" stored="true">New
+  <property id="view_emeprofilegeneral" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[view_emeprofilegeneral]]></language> 
+    </name> 
+  </property>  
+  <property id="themeid" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[themeid]]></language> 
+    </name> 
+  </property>  
+  <property id="view_emeprofileaddnew" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[view_emeprofileaddnew]]></language> 
+    </name> 
+  </property>  
+  <property id="emeprofile_entitytabopen" index="true" deleted="false" editable="true" stored="true">New
     <name>
-      <language id="en"><![CDATA[view_emeprofilegeneral]]></language>
+      <language id="en"><![CDATA[emeprofile_entitytabopen]]></language>
     </name>
   </property>
 </properties>

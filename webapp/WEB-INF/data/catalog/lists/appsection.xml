@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root> 
+  <appsection id="AZ5wZSGhkz0imR2OZ8v1" toplevelentity="emeprofile" ordering="3">EME Profiles</appsection>  
   <appsection id="AZ5gic73TN0MFq1KqS6A" toplevelentity="entityasset" ordering="2">Entity Assets</appsection>  
   <appsection id="AZ5gic8CTN0MFq1KqS6B" toplevelentity="librarycollection" ordering="1">Teams</appsection>  
   <appsection id="AZ5gic8MTN0MFq1KqS6C" toplevelentity="userpost" ordering="5">Blogs</appsection>  
   <appsection id="AZ5gic73TN0MFq1KqS6A" toplevelentity="entityasset" ordering="2">Entity Assets</appsection>
   <appsection id="AZ5gic8CTN0MFq1KqS6B" toplevelentity="librarycollection" ordering="1">Teams</appsection>
   <appsection id="AZ5gic8MTN0MFq1KqS6C" toplevelentity="userpost" ordering="5">Blogs</appsection>
-  <appsection id="AZ5wZSGhkz0imR2OZ8v1" toplevelentity="emeprofile" ordering="3">EME Profiles</appsection>
+  <element toplevelentity="emeprofile" ordering="1" id="AZ6EmNMlOHl1KmpMawtQ">
+    <name><![CDATA[EME Profiles]]></name>
+  </element>
 </root>
