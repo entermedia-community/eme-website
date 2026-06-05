@@ -1,0 +1,43 @@
+<aside id="chatSidebar">
+
+  <div class="sidebar-header">
+    <div class="sidebar-brand">
+      
+      <span>[[EME]]</span>
+    </div>
+    <button class="btn btn-sm icon-btn" id="sidebarCollapseBtn" title="[[Collapse sidebar]]">
+      <i class="bi bi-layout-sidebar-reverse" style="font-size:1.25rem;"></i>
+    </button>
+  </div>
+
+  <a class="btn btn-accent ajax m-3"
+    href="$apphome/components/chat-dashboard/sessionadd.html"
+    data-targetdiv="application"
+    data-entityid="$!entity.id"
+    data-module="$!module.getId()"
+    data-oemaxlevel="3"
+    data-createnew="true">
+    <i class="bi bi-plus-lg"></i> [[New Chat]]
+  </a>
+
+  <div class="sidebar-divider"></div>
+
+  <div class="sidebar-scroll">
+
+    <div class="pb-2">
+      $pages.include("./sidebar-history.html", $context)
+    </div>
+
+    <div class="pb-2">
+      $pages.include("./sidebar-menu.html", $context)
+    </div>
+
+    <div class="pb-2">
+      $pages.include("./sidebar-team.html", $context)
+    </div>
+
+    $pages.include("./sidebar-admin.html", $context)
+
+  </div>
+  
+</aside>
