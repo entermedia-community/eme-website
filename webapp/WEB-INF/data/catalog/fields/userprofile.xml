@@ -36,9 +36,14 @@
       <language id="en"><![CDATA[view_emeprofileaddnew]]></language> 
     </name> 
   </property>  
-  <property id="emeprofile_entitytabopen" index="true" deleted="false" editable="true" stored="true">New
+  <property id="emeprofile_entitytabopen" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[emeprofile_entitytabopen]]></language> 
+    </name> 
+  </property>  
+  <property id="sidebarwidth" index="true" deleted="false" editable="true" stored="true">New
     <name>
-      <language id="en"><![CDATA[emeprofile_entitytabopen]]></language>
+      <language id="en"><![CDATA[sidebarwidth]]></language>
     </name>
   </property>
 </properties>

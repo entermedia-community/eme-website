@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<user enabled="true">
+  <user-name><![CDATA[101]]></user-name>
+  <password><![CDATA[DES:H+InnfuF+G4=]]></password>
+  <properties>
+    <property name="creationdate" value="Sat Jun 06 03:19:59 GMT+06:00 2026"/>
+    <property name="password" value="DES:H+InnfuF+G4="/>
+    <property name="enabled" value="true"/>
+  </properties>
+</user>
