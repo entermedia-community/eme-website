@@ -1,42 +1,3 @@
-
-#set($profiles = [
-	[
-    "John Doe",
-    "john.eme.world",
-    "Graphic Designer",
-    "https://emedialibrary.org/website/mediadb/services/module/asset/generated/userprofiles/cburkey/515322115_10163469179619240_5352792842757169516_n.jpg/image200x200.webp",
-    "av-purple",
-    "Hi, I'm John! I specialize in creating stunning visuals and branding for startups. With over a decade of experience, I've worked with clients across various industries to bring their visions to life. Let's connect and create something amazing together!"
-	],
-  [
-    "Jane Smith",
-    "jane.eme.world",
-    "SaaS Founder",
-    "https://emedialibrary.org/website/mediadb/services/module/asset/generated/userprofiles/ib_6219/image200x200.webp/image200x200.webp",
-    "av-orange",
-    "Hello! I'm Jane, the founder of a fast-growing SaaS company. I have a passion for building products that solve real problems and scale effectively. I'm always looking to connect with other founders, investors, and collaborators in the tech space."
-  ],
-  [
-    "Emily Johnson",
-    "emily.eme.world",
-    "Health-Tech Entrepreneur",
-    "https://emedialibrary.org/website/mediadb/services/module/asset/generated/Users/Reana.N/IMG_6141.jpg/image200x200.webp",
-    "av-green",
-    "Hi there! I'm Emily, an entrepreneur in the health-tech space. I'm dedicated to creating innovative solutions that improve personal health and wellness. Let's connect if you're interested in health-tech, wellness brands, or just want to chat about the future of personal health!"
-  ]
-])
-
-#foreach($site in $profiles)
-  $context.putPageValue("name", $site[0])
-  $context.putPageValue("url", $site[1])
-  $context.putPageValue("category", $site[2])
-  $context.putPageValue("icon", $site[3])
-  $context.putPageValue("avatar", $site[4])
-  $context.putPageValue("description", $site[5])
-
-  $pages.include("/${applicationid}/components/services/card-profile.html", $context)
-#end
-
 #set($services = [
 	[
     "House Rentals",
@@ -57,18 +18,10 @@
 	[
     "Ride Sharing",
     "ride.eme.world",
-    "transportation",
+    "tierra-sagrada.org",
     "🚗",
     "av-orange",
     "A community-driven ride-sharing service that connects drivers and passengers for affordable and eco-friendly transportation. Our platform promotes carpooling and reduces carbon emissions while providing a reliable alternative to traditional ride-hailing services."
-	],
-	[
-    "Fundraising",
-    "impactbank.world",
-    "finance",
-    "💰",
-    "av-green",
-    "A crowdfunding service dedicated to supporting health and wellness projects. We connect innovators in the health space with backers who are passionate about improving personal health and wellness. Our platform focuses on transparency and impact, ensuring that every project we support makes a real difference in people's lives."
 	]
 ])
 
