@@ -1,5 +1,5 @@
 
-#set($sites = [
+#set($profiles = [
 	[
     "John Doe",
     "john.eme.world",
@@ -26,7 +26,7 @@
   ]
 ])
 
-#foreach($site in $sites)
+#foreach($site in $profiles)
   $context.putPageValue("name", $site[0])
   $context.putPageValue("url", $site[1])
   $context.putPageValue("category", $site[2])
@@ -34,58 +34,62 @@
   $context.putPageValue("avatar", $site[4])
   $context.putPageValue("description", $site[5])
 
-  $pages.include("/${applicationid}/components/sites/card-profile.html", $context)
+  $pages.include("/${applicationid}/components/services/card-profile.html", $context)
 #end
 
-#set($sites = [
+#set($services = [
 	[
-    "Tierra Sagrada",
+    "House Rentals",
     "tierra-sagrada.org",
-    "technology",
-    "🛠️",
+    "travel",
+    "🏠",
     "av-purple",
-    "Booking web site for regenerative rentals in Latin America and other ecotourism destinations. Gives 5% back to local community development projects. Built on EME Collective Intelligence.",
-    "3,200"
+    "A decentralized platform for peer-to-peer house rentals, connecting travelers with unique accommodations around the world. Built on blockchain technology to ensure secure and transparent transactions."
+	],
+  [
+    "Event Organization",
+    "tierra-sagrada.org",
+    "events",
+    "🎉",
+    "av-purple",
+    "A platform for organizing and managing events, from small gatherings to large conferences. Our service helps you plan, promote, and execute events seamlessly, ensuring a memorable experience for all attendees."
 	],
 	[
-    "ImapactBank",
-    "ImapactBank.world",
-    "ecommerce",
-    "🛒",
+    "Ride Sharing",
+    "ride.eme.world",
+    "transportation",
+    "🚗",
     "av-orange",
-    "Fundraising platform and wallet management for banking tranactions outside of the corportate financial establishment. Built to support EME Collective Intelligence collaboration.",
-    "2,800"
+    "A community-driven ride-sharing service that connects drivers and passengers for affordable and eco-friendly transportation. Our platform promotes carpooling and reduces carbon emissions while providing a reliable alternative to traditional ride-hailing services."
 	],
 	[
-    "eInnovation",
-    "einnovation.com",
-    "health",
-    "🌿",
+    "Fundraising",
+    "impactbank.world",
+    "finance",
+    "💰",
     "av-green",
-    "For Marketing Collaboration and Social Media Publishing",
-    "1,450"
+    "A crowdfunding service dedicated to supporting health and wellness projects. We connect innovators in the health space with backers who are passionate about improving personal health and wellness. Our platform focuses on transparency and impact, ensuring that every project we support makes a real difference in people's lives."
 	]
 ])
 
-#foreach($site in $sites)
-  $context.putPageValue("name", $site[0])
-  $context.putPageValue("url", $site[1])
-  $context.putPageValue("category", $site[2])
-  $context.putPageValue("icon", $site[3])
-  $context.putPageValue("avatar", $site[4])
-  $context.putPageValue("description", $site[5])
-  $context.putPageValue("members", $site[6])
+#foreach($service in $services)
+  $context.putPageValue("name", $service[0])
+  $context.putPageValue("url", $service[1])
+  $context.putPageValue("category", $service[2])
+  $context.putPageValue("icon", $service[3])
+  $context.putPageValue("avatar", $service[4])
+  $context.putPageValue("description", $service[5])
 
-  $pages.include("/${applicationid}/components/sites/card-site.html", $context)
+  $pages.include("/${applicationid}/components/services/card-services.html", $context)
 #end
 
 
 
-#if($sites.size() == 0)
+#if($services.size() == 0)
 <div class="empty-state">
   <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
   </svg>
-  <p>No sites match your filter. Try a different category or search term.</p>
+  <p>No services match your filter. Try a different category or search term.</p>
 </div>
 #end

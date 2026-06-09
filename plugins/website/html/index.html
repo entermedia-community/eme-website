@@ -7,7 +7,7 @@
    
     <div class="hero-stats">
       <div class="hero-stat"><strong>137</strong><span>Profiles</span></div>
-      <div class="hero-stat"><strong>12</strong><span>Servers</span></div>
+      <div class="hero-stat"><strong>12</strong><span>Services</span></div>
       <div class="hero-stat"><strong>6550</strong><span>Documents</span></div>
       <div class="hero-stat"><strong>32</strong><span>Countries</span></div>
     </div>
@@ -28,7 +28,7 @@
       <div class="filter-chips" id="filterChips">
         <button class="chip active" data-filter="all">All</button>
         <button class="chip" data-filter="emeprofiles">Profiles</button>
-        <button class="chip" data-filter="emesites">Servers</button>
+        <button class="chip" data-filter="emeservices">Services</button>
       </div>
       <span class="filter-count" id="filterCount"></span>
     </div>
@@ -37,7 +37,7 @@
   <section class="sites-section">
     <div class="sites-inner">
       <div class="sites-grid" id="sitesGrid">
-        $pages.include("/${applicationid}/components/sites/list.html")
+        $pages.include("/${applicationid}/components/services/list.html")
       </div>
     </div>
   </section>
@@ -60,7 +60,7 @@
         <button class="chip" data-filter="sports">Sports</button>
         <button class="chip" data-filter="sustainability">Sustainability</button>
       </div>
-      $pages.include("/${applicationid}/components/chat-dashboard/chat-input.html", $context)
+      ##$pages.include("/${applicationid}/components/chat-dashboard/chat-input.html", $context)
     </div>
 </section>  
 

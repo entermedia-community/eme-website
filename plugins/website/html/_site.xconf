@@ -3,7 +3,7 @@
 <page>
   <property name="siteid">website</property>
   <property name="applicationid">website</property>
-  <property name="fallbackdirectory">/eme</property>
+  <property name="fallbackdirectory">/finder/find</property>
   <property name="catalogid">catalog</property>
 
   <permission name="view">
