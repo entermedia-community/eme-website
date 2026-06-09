@@ -41,9 +41,34 @@
       <language id="en"><![CDATA[emeprofile_entitytabopen]]></language> 
     </name> 
   </property>  
-  <property id="sidebarwidth" index="true" deleted="false" editable="true" stored="true">New
+  <property id="sidebarwidth" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[sidebarwidth]]></language> 
+    </name> 
+  </property>  
+  <property id="librarycollection_entitytabopen" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[librarycollection_entitytabopen]]></language> 
+    </name> 
+  </property>  
+  <property id="assetopentab" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[assetopentab]]></language> 
+    </name> 
+  </property>  
+  <property id="entityasset_entitytabopen" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[entityasset_entitytabopen]]></language> 
+    </name> 
+  </property>  
+  <property id="view_entityassetgeneral" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[view_entityassetgeneral]]></language> 
+    </name> 
+  </property>  
+  <property id="view_assetgeneral" index="true" deleted="false" editable="true" stored="true">New
     <name>
-      <language id="en"><![CDATA[sidebarwidth]]></language>
+      <language id="en"><![CDATA[view_assetgeneral]]></language>
     </name>
   </property>
 </properties>

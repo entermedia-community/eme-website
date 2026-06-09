@@ -3,3 +3,6 @@ tomcat/logs/*
 tomcat/work/*
 **/index.min.js
 **/indexdefer.min.js
+webapp/WEB-INF/data/catalog/generated/*
+webapp/WEB-INF/data/catalog/originals/*
+webapp/WEB-INF/temp/*
