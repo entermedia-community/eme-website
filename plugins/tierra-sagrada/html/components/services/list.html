@@ -1,0 +1,48 @@
+#set($services = [
+	[
+    "House Rentals",
+    "tierra-sagrada.org",
+    "travel",
+    "🏠",
+    "av-purple",
+    "A decentralized platform for peer-to-peer house rentals, connecting travelers with unique accommodations around the world. Built on blockchain technology to ensure secure and transparent transactions."
+	],
+  [
+    "Event Organization",
+    "tierra-sagrada.org",
+    "events",
+    "🎉",
+    "av-purple",
+    "A platform for organizing and managing events, from small gatherings to large conferences. Our service helps you plan, promote, and execute events seamlessly, ensuring a memorable experience for all attendees."
+	],
+	[
+    "Ride Sharing",
+    "ride.eme.world",
+    "tierra-sagrada.org",
+    "🚗",
+    "av-orange",
+    "A community-driven ride-sharing service that connects drivers and passengers for affordable and eco-friendly transportation. Our platform promotes carpooling and reduces carbon emissions while providing a reliable alternative to traditional ride-hailing services."
+	]
+])
+
+#foreach($service in $services)
+  $context.putPageValue("name", $service[0])
+  $context.putPageValue("url", $service[1])
+  $context.putPageValue("category", $service[2])
+  $context.putPageValue("icon", $service[3])
+  $context.putPageValue("avatar", $service[4])
+  $context.putPageValue("description", $service[5])
+
+  $pages.include("/${applicationid}/components/services/card-services.html", $context)
+#end
+
+
+
+#if($services.size() == 0)
+<div class="empty-state">
+  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+  </svg>
+  <p>No services match your filter. Try a different category or search term.</p>
+</div>
+#end

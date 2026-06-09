@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <page>
-  <property name="siteid">website</property>
-  <property name="applicationid">website</property>
+  <property name="siteid">tierra-sagrada</property>
+  <property name="applicationid">tierra-sagrada</property>
   <property name="fallbackdirectory">/finder/find</property>
   <property name="catalogid">catalog</property>
 
