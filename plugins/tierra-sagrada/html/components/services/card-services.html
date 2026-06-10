@@ -1,15 +1,15 @@
-<div class="site-card" data-category="${category}">
-  <div class="site-card-header">
-    <div class="site-avatar ${avatar}">${icon}</div>
-    <div class="site-meta">
-      <div class="site-name">${name}</div>
-      <div class="site-url">${url}</div>
+<div class="services-card" data-category="${category}">
+  <div class="services-card-header">
+    <div class="services-avatar ${avatar}">${icon}</div>
+    <div class="services-meta">
+      <div class="services-name">${product.name}</div>
+      <div class="services-url">${product.url}</div>
     </div>
   </div>
-  <p class="site-desc">${description}</p>
-  <div class="site-footer">
-    <span class="site-tag tag-dcategory">${category}</span> 
-    <a href="#" class="site-cta" target="_blank" rel="noopener">
+  <p class="services-desc">${product.longcaption}</p>
+  <div class="services-footer">
+    <span class="services-tag tag-dcategory">${product.productprice}/${product.recurringperiod}</span> 
+    <a href="#" class="services-cta" target="_blank" rel="noopener">
       <span role="img" aria-label="Explore">💬</span> [[Explore]]
     </a>
   </div>

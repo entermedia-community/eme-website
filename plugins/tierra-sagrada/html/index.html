@@ -10,50 +10,41 @@
       <div class="hero-stat"><strong>12</strong><span>Events</span></div>
     </div>
   </section>
-
- 
-
-
-  <div class="filter-bar" id="searchBar">
-    <div class="filter-inner">
-      <div class="filter-search">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="search" id="searchInput" placeholder="EME Profiles" autocomplete="off">
-      </div>
-      <div class="filter-chips" id="filterChips">
-        <button class="chip active" data-filter="all">All</button>
-        <button class="chip" data-filter="emerentals">Rentals</button>
-        <button class="chip" data-filter="emrides">Rides</button>
-        <button class="chip" data-filter="emevents">Events</button>
-      </div>
-      <span class="filter-count" id="filterCount"></span>
-    </div>
-  </div>
   
-  <section class="sites-section">
-    <div class="sites-inner">
-      <div class="sites-grid" id="sitesGrid">
-        $pages.include("/${applicationid}/components/services/list.html")
-      </div>
-    </div>
-  </section>
-
-</div>
-
-<!-- <section class="how" id="how-it-works">
+  <section class="services-section">
     <p style="margin: 0 auto 36px;max-width: 820px;text-align: center;">
       [[Explore our community-driven services and connect with others!]]
     </p>
     <div class="chat-input-container">
-      <div class="filter-chips" id="filterChips">
-        <button class="chip active" data-filter="all">All</button>
-        <button class="chip" data-filter="rentals">Rentals</button>
-        <button class="chip" data-filter="rides">Rides</button>
-        <button class="chip" data-filter="events">Events</button>
+
+      <div class="filter-bar" id="searchBar">
+        <div class="filter-inner">
+          <div class="filter-search">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="search" id="searchInput" placeholder="EME Profiles" autocomplete="off">
+          </div>
+          <div class="filter-chips" id="filterChips">
+            <button class="chip active" data-filter="all">All</button>
+            #set($searchcategories = $mediaarchive.query("searchcategory").search())
+            #if($searchcategories.size() > 0)
+              #foreach($cat in $searchcategories)
+              <a class="chip ajax" data-targetdiv="servicesGrid" href="${apphome}/components/services/list.html?category=$cat.id&oemaxlevel=1">
+                <i class="bi bi-file-earmark-text chip-icon" style="color:#3b82f6;"></i>
+                <span>#text($cat)</span>
+              </a>
+              #end
+            #end
+          </div> 
+        </div>
       </div>
+
+      $pages.include("/${applicationid}/components/services/list.html")
+      
       $pages.include("/${applicationid}/components/chat-dashboard/chat-input.html", $context)
     </div>
-</section>   -->
+  </section>
+
+</div>
 
 
 <section class="how" id="how-it-works">
