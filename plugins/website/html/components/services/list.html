@@ -1,87 +1,71 @@
+<div class="services-inner" id="servicesGrid">
+  <div class="services-grid">
+    
+#set($categoryid = $request.getRequestParameter("category"))
 
-#set($profiles = [
-	[
-    "John Doe",
-    "john.eme.world",
-    "Graphic Designer",
-    "https://emedialibrary.org/website/mediadb/services/module/asset/generated/userprofiles/cburkey/515322115_10163469179619240_5352792842757169516_n.jpg/image200x200.webp",
-    "av-purple",
-    "Hi, I'm John! I specialize in creating stunning visuals and branding for startups. With over a decade of experience, I've worked with clients across various industries to bring their visions to life. Let's connect and create something amazing together!"
-	],
-  [
-    "Jane Smith",
-    "jane.eme.world",
-    "SaaS Founder",
-    "https://emedialibrary.org/website/mediadb/services/module/asset/generated/userprofiles/ib_6219/image200x200.webp/image200x200.webp",
-    "av-orange",
-    "Hello! I'm Jane, the founder of a fast-growing SaaS company. I have a passion for building products that solve real problems and scale effectively. I'm always looking to connect with other founders, investors, and collaborators in the tech space."
-  ],
-  [
-    "Emily Johnson",
-    "emily.eme.world",
-    "Health-Tech Entrepreneur",
-    "https://emedialibrary.org/website/mediadb/services/module/asset/generated/Users/Reana.N/IMG_6141.jpg/image200x200.webp",
-    "av-green",
-    "Hi there! I'm Emily, an entrepreneur in the health-tech space. I'm dedicated to creating innovative solutions that improve personal health and wellness. Let's connect if you're interested in health-tech, wellness brands, or just want to chat about the future of personal health!"
-  ]
-])
-
-#foreach($site in $profiles)
-  $context.putPageValue("name", $site[0])
-  $context.putPageValue("url", $site[1])
-  $context.putPageValue("category", $site[2])
-  $context.putPageValue("icon", $site[3])
-  $context.putPageValue("avatar", $site[4])
-  $context.putPageValue("description", $site[5])
-
-  $pages.include("/${applicationid}/components/services/card-profile.html", $context)
+#ifnull($categoryid)
+  #set($products = $mediaarchive.query("collectiveproduct").search())
 #end
 
-#set($services = [
-	[
-    "House Rentals",
-    "tierra-sagrada.org",
-    "travel",
-    "🏠",
-    "av-purple",
-    "A decentralized platform for peer-to-peer house rentals, connecting travelers with unique accommodations around the world. Built on blockchain technology to ensure secure and transparent transactions."
-	],
-  [
-    "Event Organization",
-    "tierra-sagrada.org",
-    "events",
-    "🎉",
-    "av-purple",
-    "A platform for organizing and managing events, from small gatherings to large conferences. Our service helps you plan, promote, and execute events seamlessly, ensuring a memorable experience for all attendees."
-	],
-	[
-    "Ride Sharing",
-    "ride.eme.world",
-    "tierra-sagrada.org",
-    "🚗",
-    "av-orange",
-    "A community-driven ride-sharing service that connects drivers and passengers for affordable and eco-friendly transportation. Our platform promotes carpooling and reduces carbon emissions while providing a reliable alternative to traditional ride-hailing services."
-	]
-])
-
-#foreach($service in $services)
-  $context.putPageValue("name", $service[0])
-  $context.putPageValue("url", $service[1])
-  $context.putPageValue("category", $service[2])
-  $context.putPageValue("icon", $service[3])
-  $context.putPageValue("avatar", $service[4])
-  $context.putPageValue("description", $service[5])
-
-  $pages.include("/${applicationid}/components/services/card-services.html", $context)
+#ifnotnull($categoryid)
+  #set($products = $mediaarchive.query("collectiveproduct").exact("searchcategory", $categoryid).search())
 #end
 
 
+    #foreach($product in $products)
+      $context.put("product", $product)
+      $pages.include("/${applicationid}/components/services/card-services.html", $context)
+    #end 
 
-#if($services.size() == 0)
-<div class="empty-state">
-  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-  </svg>
-  <p>No services match your filter. Try a different category or search term.</p>
+
+
+    ## Example of emeprofile
+    <div class="services-card">
+    <div class="services-card-header">
+      <div class="services-avatar">WW</div>
+      <div class="services-meta">
+        <div class="services-name">Material Design</div>
+        <div class="services-url">Shakil A.</div>
+      </div>
+    </div>
+    <p class="services-desc">
+      A modern web design service that creates visually stunning and user-friendly websites. We specialize in responsive design, ensuring your site looks great on all devices. Our team of designers and developers work closely with you to bring your vision to life, using the latest technologies and best practices in web development.
+    </p>
+    <div class="services-footer">
+      <span class="services-tag tag-dcategory">Web Design</span> 
+      <a href="#" class="services-cta" target="_blank" rel="noopener">
+        <i class="bi bi-chat me-1"></i> [[View]]
+      </a>
+    </div>
+  </div>
+  
+  <div class="services-card">
+    <div class="services-card-header">
+      <div class="services-avatar">G</div>
+      <div class="services-meta">
+        <div class="services-name">Graphic Design</div>
+        <div class="services-url">Shakil A.</div>
+      </div>
+    </div>
+    <p class="services-desc">
+      A creative graphic design service that helps businesses and individuals communicate their message visually. We offer a wide range of design services, including logo design, branding, marketing materials, and social media graphics. Our team of talented designers works closely with you to understand your goals and create custom designs that effectively convey your brand identity and resonate with your target audience.
+    </p>
+    <div class="services-footer">
+      <span class="services-tag tag-dcategory">Graphic Design</span> 
+      <a href="#" class="services-cta" target="_blank" rel="noopener">
+        <i class="bi bi-chat me-1"></i> [[View]]
+      </a>
+    </div>
+  </div>
+
+    #if($products.size() == 0)
+    <div class="empty-state">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <p>No services match your filter. Try a different category or search term.</p>
+    </div>
+    #end
+
+  </div>
 </div>
-#end

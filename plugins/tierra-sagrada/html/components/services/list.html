@@ -1,15 +1,15 @@
 <div class="services-inner" id="servicesGrid">
   <div class="services-grid">
+    
+#set($categoryid = $request.getRequestParameter("category"))
 
-  #set($categoryid = $request.getRequestParameter("category"))
+#ifnull($categoryid)
+  #set($products = $mediaarchive.query("collectiveproduct").search())
+#end
 
-  #ifnull($categoryid)
-    #set($products = $mediaarchive.query("collectiveproduct").search())
-  #end
-
-  #ifnotnull($categoryid)
-    #set($products = $mediaarchive.query("collectiveproduct").exact("searchcategory", $categoryid).search())
-  #end
+#ifnotnull($categoryid)
+  #set($products = $mediaarchive.query("collectiveproduct").exact("searchcategory", $categoryid).search())
+#end
 
 
  
