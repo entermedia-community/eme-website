@@ -479,6 +479,9 @@ h1 span {
 		background 0.15s,
 		transform 0.1s;
 	white-space: nowrap;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
 }
 .site-cta:hover,
 .people-cta:hover {
