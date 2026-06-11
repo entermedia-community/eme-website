@@ -1,6 +1,6 @@
 
 <div style="background: linear-gradient(135deg, #1f2d20 0%, #1a2230 55%, #16271e 100%);padding-bottom: 4rem;">
-  <section class="hero">
+  <section class="hero" id="hero">
     <span class="hero-eyebrow-label">Collective Intelligence Network</span>
     <h1>Own your intelligence.<br>Own your content.<br>Own your future.</h1>
     <p class="hero-sub">
@@ -9,7 +9,12 @@
       <a href="./collective-intelligence.html" class="hero-eyebrow">Collective Intelligence</a>.
     </p>
     <div class="hero-actions">
-      <a href="#" class="site-cta" target="_blank" rel="noopener">Create Your Profile</a>
+      #ifnotnull($user)
+        <a href="/eme/" class="site-cta">Go to your profile</a>
+      #end
+      #ifnull($user)
+        <a href="$apphome/authentication/ajaxlogin.html" class="site-cta ajax" data-targetdivinner="hero">Create Your Profile</a>
+      #end
       <a href="#how-it-works" class="site-cta-secondary">How it works →</a>
     </div>
     <p class="hero-tagline">Own your digital identity — forever.</p>

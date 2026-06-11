@@ -5,14 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EME Collective Intelligence</title>
   <meta name="description" content="EME is a decentralized incubator platform for startups and businesses. Find a community site that matches your industry and goals.">
+
+  <!-- TODO: replace -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/${applicationid}/theme/css/eme.css">
+
+  $pages.include("/${applicationid}/theme/layouts/includes.html", $context)
+
   <link rel="stylesheet" href="/${applicationid}/theme/css/website.css">
   <link rel="stylesheet" href="/${applicationid}/theme/css/website-dark.css">
-  <script type="text/javascript" src="/${applicationid}/components/javascript/jquery-core/jquery-4.0.0.min.js" onload="if (!window.jQuery)  window.$ = window.jQuery = module.exports;"></script>
   <script src="/${applicationid}/theme/javascript/website.js"></script>
+  
 </head>
 <body>
   <nav>
@@ -25,7 +29,12 @@
         <a href="#sites" class="active">Sites</a>
         <a href="#how-it-works">How it works</a>
         <a href="#">Blog</a>
+        #ifnotnull($user)
         <a href="/eme/" class="nav-cta">My Account</a>
+        #end
+        #ifnull($user)
+        <a href="$apphome/authentication/ajaxlogin.html" class="nav-cta ajax" data-targetdivinner="hero">Create Account</a>
+        #end
       </div>
     </div>
   </nav>

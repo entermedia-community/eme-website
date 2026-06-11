@@ -160,6 +160,9 @@ nav {
 	padding: 80px 24px 48px;
 	text-align: center;
 }
+.hero:has(.loginbox) {
+	padding: 48px 24px 48px;
+}
 .hero-eyebrow-label {
 	display: inline-block;
 	font-size: 0.72rem;
@@ -756,6 +759,10 @@ footer {
 	.hero-stats {
 		gap: 24px;
 		padding: 18px 24px;
+	}
+	.filter-bar {
+		position: relative;
+		top: unset;
 	}
 	.filter-inner {
 		flex-direction: column;
