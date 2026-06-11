@@ -28,7 +28,10 @@
   <data id="userpost" showonsearch="true" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="rss"> 
     <name><![CDATA[Blogs]]></name> 
   </data>  
-  <data id="asset" showonsearch="true" securityenabled="false" ordering="115" moduleresultsview="table" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="image">
-    <name><![CDATA[Files]]></name>
+  <data id="asset" showonsearch="true" securityenabled="false" ordering="115" moduleresultsview="table" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="image"> 
+    <name><![CDATA[Files]]></name> 
+  </data>  
+  <data id="searchcategory" showonsearch="true" securityenabled="false" ordering="3" moduleresultsview="brickvertical" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="false" moduleicon="folder">
+    <name><![CDATA[Categories]]></name>
   </data> 
 </root>

@@ -11,8 +11,12 @@
   <element toplevelentity="emeprofile" ordering="1" id="AZ6EmNMlOHl1KmpMawtQ"> 
     <name><![CDATA[EME Profiles]]></name> 
   </element>  
-  <appsection id="AZ6thNhdim0LGdZ8y-hz" toplevelentity="entityasset" ordering="2">Entity Assets</appsection>
   <appsection id="AZ6thNiYim0LGdZ8y-h4" toplevelentity="librarycollection" ordering="1">Projects</appsection>
-  <appsection id="AZ6thNi5im0LGdZ8y-h6" toplevelentity="userpost" ordering="5">Blogs</appsection>
-  <appsection id="AZ6thNjgim0LGdZ8y-h-" toplevelentity="emeprofile" ordering="1">EME Profile</appsection>
+  <element toplevelentity="collectiveproduct" ordering="2" id="AZ6yK-wN9uj6DPt4nMFc">
+    <name><![CDATA[Products]]></name>
+  </element>
+  <appsection id="AZ6thNjgim0LGdZ8y-h-" toplevelentity="emeprofile" ordering="3">EME Profile</appsection>
+  <element toplevelentity="searchcategory" ordering="1" id="AZ6yK-xJ9uj6DPt4nMFd">
+    <name><![CDATA[Categories]]></name>
+  </element>
 </root>

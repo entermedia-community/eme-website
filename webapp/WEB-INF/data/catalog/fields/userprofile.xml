@@ -66,9 +66,24 @@
       <language id="en"><![CDATA[view_entityassetgeneral]]></language> 
     </name> 
   </property>  
-  <property id="view_assetgeneral" index="true" deleted="false" editable="true" stored="true">New
+  <property id="view_assetgeneral" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[view_assetgeneral]]></language> 
+    </name> 
+  </property>  
+  <property id="collectiveproduct_entitytabopen" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[collectiveproduct_entitytabopen]]></language> 
+    </name> 
+  </property>  
+  <property id="view_collectiveproductgeneral" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[view_collectiveproductgeneral]]></language> 
+    </name> 
+  </property>  
+  <property id="entityassetresultview" index="true" deleted="false" editable="true" stored="true">New
     <name>
-      <language id="en"><![CDATA[view_assetgeneral]]></language>
+      <language id="en"><![CDATA[entityassetresultview]]></language>
     </name>
   </property>
 </properties>
