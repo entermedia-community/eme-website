@@ -85,15 +85,17 @@ nav {
 .nav-logo {
 	display: flex;
 	align-items: center;
-	gap: 8px;
+	flex-direction: column;
+	gap: 6px;
+	margin: 4px 0 2px;
 }
 .nav-logo img {
-	width: 42px;
+	width: 200px;
 	height: 42px;
 	object-fit: contain;
 }
 .nav-logo span {
-	font-size: 1.5rem;
+	font-size: 0.8rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #ffffff;
