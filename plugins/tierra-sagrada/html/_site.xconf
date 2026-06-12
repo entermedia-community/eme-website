@@ -6,8 +6,6 @@
   <property name="fallbackdirectory">/eme</property>
   <property name="catalogid">catalog</property>
 
-  <page-loader loader="profileLoader" />
-
   <permission name="view">
     <boolean value="true"/>
   </permission>

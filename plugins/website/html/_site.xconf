@@ -5,7 +5,6 @@
   <property name="applicationid">website</property>
   <property name="fallbackdirectory">/eme</property>
   <property name="catalogid">catalog</property>
-  <page-loader loader="profileLoader" />
 
   <property name="allowguestregistration">true</property>
 
