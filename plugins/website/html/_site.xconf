@@ -3,10 +3,11 @@
 <page>
   <property name="siteid">website</property>
   <property name="applicationid">website</property>
-  <property name="fallbackdirectory">/finder/find</property>
+  <property name="fallbackdirectory">/eme</property>
   <property name="catalogid">catalog</property>
+  <page-loader loader="profileLoader" />
 
-  <property name="loginok">$!apphome/eme/</property>
+  <property name="allowguestregistration">true</property>
 
   <permission name="view">
     <boolean value="true"/>

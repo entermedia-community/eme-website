@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root> 
-  <data id="informatics" isrunning="false" isvisible="true" lastrunstart="2026-06-11 04:23:02 +0600" ordering="30" scenarioicon="robot" enabled="true" connectedtop="importinglabel"> 
-    <name><![CDATA[Automated Classification]]></name> 
+  <data id="informatics" isrunning="false" isvisible="true" lastrunstart="2026-06-12 07:08:16 +0600" ordering="30" scenarioicon="robot" enabled="true" connectedtop="importinglabel">
+    <name><![CDATA[Automated Classification]]></name>
   </data>  
-  <data id="asset_hotfolder_scanning" isrunning="false" isvisible="true" lastrunstart="2026-06-11 03:33:03 +0600" ordering="50" scenarioicon="folder-fill" enabled="true" connectedtop="importinglabel"> 
+  <data id="asset_hotfolder_scanning" isrunning="false" isvisible="true" lastrunstart="2026-06-12 07:08:16 +0600" ordering="50" scenarioicon="folder-fill" enabled="true" connectedtop="importinglabel"> 
     <name><![CDATA[Hot Folder Scanning]]></name> 
   </data>  
   <data id="chat_detection" isrunning="false" isvisible="true" lastrunstart="2026-06-11 00:00:01 +0600" ordering="50" scenarioicon="broadcast" enabled="true" connectedtop="chatlabel"> 
@@ -13,10 +13,10 @@
   <data id="informatics_translate" isrunning="false" isvisible="true" lastrunstart="2026-06-10 00:47:46 +0600" ordering="40" scenarioicon="file-earmark-richtext" enabled="true" connectedtop="importinglabel"> 
     <name><![CDATA[Automated Classification - Translate]]></name> 
   </data>  
-  <data id="smartcreator_processarticles" isrunning="false" isvisible="true" lastrunstart="2026-06-11 05:03:02 +0600" ordering="20" enabled="true" connectedtop="contentcreationlabel"> 
+  <data id="smartcreator_processarticles" isrunning="false" isvisible="true" lastrunstart="2026-06-12 07:08:16 +0600" ordering="20" enabled="true" connectedtop="contentcreationlabel"> 
     <name><![CDATA[Auto Create Articles]]></name> 
   </data>  
-  <data id="smartcreator_processtutorials" isrunning="false" isvisible="true" lastrunstart="2026-06-11 05:03:04 +0600" ordering="20" enabled="true" connectedtop="contentcreationlabel">
-    <name><![CDATA[Auto Create Tutorials]]></name>
+  <data id="smartcreator_processtutorials" isrunning="false" isvisible="true" lastrunstart="2026-06-12 06:38:03 +0600" ordering="20" enabled="true" connectedtop="contentcreationlabel"> 
+    <name><![CDATA[Auto Create Tutorials]]></name> 
   </data> 
 </root>

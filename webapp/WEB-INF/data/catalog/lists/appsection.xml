@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root> 
-  <appsection id="AZ5wZSGhkz0imR2OZ8v1" toplevelentity="emeprofile" ordering="3">EME Profiles</appsection>  
   <appsection id="AZ5gic73TN0MFq1KqS6A" toplevelentity="entityasset" ordering="2">Entity Assets</appsection>  
   <appsection id="AZ5gic8CTN0MFq1KqS6B" toplevelentity="librarycollection" ordering="1">Teams</appsection>  
   <appsection id="AZ5gic8MTN0MFq1KqS6C" toplevelentity="userpost" ordering="5">Blogs</appsection>  
-  <appsection id="AZ5gic73TN0MFq1KqS6A" toplevelentity="entityasset" ordering="2">Entity Assets</appsection>  
-  <appsection id="AZ5gic8CTN0MFq1KqS6B" toplevelentity="librarycollection" ordering="1">Teams</appsection>  
-  <appsection id="AZ5gic8MTN0MFq1KqS6C" toplevelentity="userpost" ordering="5">Blogs</appsection>  
-  <element toplevelentity="emeprofile" ordering="1" id="AZ6EmNMlOHl1KmpMawtQ"> 
-    <name><![CDATA[EME Profiles]]></name> 
-  </element>  
   <appsection id="AZ6thNiYim0LGdZ8y-h4" toplevelentity="librarycollection" ordering="1">Projects</appsection>
-  <element toplevelentity="collectiveproduct" ordering="2" id="AZ6yK-wN9uj6DPt4nMFc">
-    <name><![CDATA[Products]]></name>
-  </element>
+  <appsection id="AZ6yK-wN9uj6DPt4nMFc" toplevelentity="collectiveproduct" ordering="2">Products</appsection>
   <appsection id="AZ6thNjgim0LGdZ8y-h-" toplevelentity="emeprofile" ordering="3">EME Profile</appsection>
-  <element toplevelentity="searchcategory" ordering="1" id="AZ6yK-xJ9uj6DPt4nMFd">
-    <name><![CDATA[Categories]]></name>
-  </element>
+  <appsection id="AZ6yK-xJ9uj6DPt4nMFd" toplevelentity="searchcategory" ordering="1">Categories</appsection>
 </root>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root> 
-  <data id="website" catalogid="catalog" domains="web.localhost.com" rootpath="/website">
+  <data id="website" catalogid="catalog" domains="localhost.com" rootpath="/website">
     <name><![CDATA[Web]]></name>
   </data>  
-  <data id="catalog" catalogid="catalog" domains="localhost.com" rootpath="/eme"> 
+  <data id="catalog" catalogid="catalog" rootpath="/eme"> 
     <name><![CDATA[EME]]></name> 
   </data> 
 </root>

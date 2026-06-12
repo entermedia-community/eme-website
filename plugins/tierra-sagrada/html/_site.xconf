@@ -3,8 +3,10 @@
 <page>
   <property name="siteid">tierra-sagrada</property>
   <property name="applicationid">tierra-sagrada</property>
-  <property name="fallbackdirectory">/finder/find</property>
+  <property name="fallbackdirectory">/eme</property>
   <property name="catalogid">catalog</property>
+
+  <page-loader loader="profileLoader" />
 
   <permission name="view">
     <boolean value="true"/>
