@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<user enabled="true">
+  <user-name><![CDATA[105]]></user-name>
+  <password><![CDATA[DES:NeIeaTMzo9o=]]></password>
+  <properties>
+    <property name="firstName" value="Shakil"/>
+    <property name="lastName" value="Ahmmed"/>
+    <property name=".version" value="1"/>
+    <property name="password" value="DES:NeIeaTMzo9o="/>
+    <property name="virtual" value="false"/>
+    <property name="creationdate" value="Sat Jun 13 04:40:37 GMT+06:00 2026"/>
+    <property name="catalogid" value="system"/>
+    <property name="lastlogin" value="2026-06-13 04:40:37 +0600"/>
+    <property name="groups" value="[Guest]"/>
+    <property name="enabled" value="true"/>
+    <property name="email" value="test3@example.com"/>
+  </properties>
+  <group id="guest"/>
+</user>

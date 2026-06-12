@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root> 
-  <data id="llamat" aifunctions="agentChat|auto_detect_sitewide_parse|auto_detect_conversation|auto_detect_welcome|creation_image_parse|question_welcome|question_create_suggestions|classifyEntity|conversation|createBulkEntities|createEntity|createSemanticTopics|documentSplit|namedEntityRecognition|parsePrompt|parseRagPrompt|search_parse|searchSemantic|smartcreator_parse|smartcreator_confirmoutline|smartcreator_parsecontent|agentparamsfromskill|agentparamsmapping|agentparams|agentdecision|agentemailgreeting|agentemailanswer|parse_ride_request" connectionbean="llamaOpenAiConnection" ordering="1614" modelname="Qwen3-14B-Q4_K_S.gguf" monitorspeed="true" serverpathprefix="/v1" serverroot="https://llamat.emediaworkspace.com" serverapikey="demo">
+  <data id="llamat" aifunctions="agentChat|auto_detect_sitewide_parse|auto_detect_conversation|auto_detect_welcome|creation_image_parse|question_welcome|question_create_suggestions|classifyEntity|conversation|createBulkEntities|createEntity|createSemanticTopics|documentSplit|namedEntityRecognition|parsePrompt|parseRagPrompt|search_parse|searchSemantic|smartcreator_parse|smartcreator_confirmoutline|smartcreator_parsecontent|agentparamsfromskill|agentparamsmapping|agentparams|agentdecision|agentemailgreeting|agentemailanswer|parse_ride_request" connectionbean="llamaOpenAiConnection" ordering="1336" modelname="Qwen3-14B-Q4_K_S.gguf" monitorspeed="true" serverpathprefix="/v1" serverroot="https://llamat.emediaworkspace.com" serverapikey="demo">
     <name><![CDATA[AI: Entity Classification Server]]></name>
   </data> 
 </root>

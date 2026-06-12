@@ -10,10 +10,10 @@
     </p>
     <div class="hero-actions">
       #ifnotnull($user)
-        <a href="/eme/" class="site-cta">Go to your profile</a>
+        <a href="$apphome/authentication/ajaxlogin.html" class="site-cta">Go to your EME</a>
       #end
       #ifnull($user)
-        <a href="$apphome/authentication/ajaxlogin.html" class="site-cta ajax" data-targetdivinner="hero">Create Your Profile</a>
+        <a href="$apphome/authentication/ajaxlogin.html" class="site-cta ajax" data-targetdivinner="hero">Create Your EME</a>
       #end
       <a href="#how-it-works" class="site-cta-secondary">How it works →</a>
     </div>
