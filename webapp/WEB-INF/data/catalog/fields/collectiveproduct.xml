@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<properties beanname="dataSearcher">
-  <property id="librarycollection" index="true" filter="true" internalfield="false" deleted="false" datatype="list" editable="true" stored="true" viewtype="entity">New
+<properties beanname="dataSearcher"> 
+  <property id="librarycollection" index="true" filter="true" internalfield="false" deleted="false" datatype="list" editable="true" stored="true" viewtype="entity">New 
+    <name> 
+      <language id="en"><![CDATA[Projects]]></language> 
+    </name> 
+  </property>  
+  <property id="emeprofile" index="true" datatype="list" editable="true" stored="true" viewtype="entity">New
     <name>
-      <language id="en"><![CDATA[Projects]]></language>
+      <language id="en"><![CDATA[EME Profile]]></language>
     </name>
   </property>
 </properties>
