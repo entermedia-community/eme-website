@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <data aifunction="chat_questions_welcome" entityid="admin" entitymoduleid="emeprofile" prompt="Which international companies has Shakil Ahmmed worked for as a Full Stack Developer?" id="AZ7NutmRhB8Khi6LGMa6"> 
+    <name> 
+      <language id="en"><![CDATA[Shakil Ahmmed's Professional Experience]]></language> 
+    </name> 
+  </data>  
+  <data aifunction="chat_questions_welcome" entityid="admin" entitymoduleid="emeprofile" prompt="What programming languages and frameworks is Shakil Ahmmed proficient in?" id="AZ7Nutm-hB8Khi6LGMa7"> 
+    <name> 
+      <language id="en"><![CDATA[Shakil Ahmmed's Technical Skills]]></language> 
+    </name> 
+  </data>  
+  <data aifunction="chat_questions_welcome" entityid="admin" entitymoduleid="emeprofile" prompt="Where did Shakil Ahmmed earn his Bachelor in Computer Science and Engineering?" id="AZ7NutnnhB8Khi6LGMa8">
+    <name>
+      <language id="en"><![CDATA[Shakil Ahmmed's Educational Background]]></language>
+    </name>
+  </data>
+</root>

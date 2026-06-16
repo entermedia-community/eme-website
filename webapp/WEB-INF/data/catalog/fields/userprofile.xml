@@ -91,9 +91,19 @@
       <language id="en"><![CDATA[view_emeprofileedit]]></language> 
     </name> 
   </property>  
-  <property id="view_emeprofileresultstable" index="true" deleted="false" editable="true" stored="true">New
+  <property id="view_emeprofileresultstable" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[view_emeprofileresultstable]]></language> 
+    </name> 
+  </property>  
+  <property id="view_assetlightboxes" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[view_assetlightboxes]]></language> 
+    </name> 
+  </property>  
+  <property id="view_entityassetentityassetpage" index="true" deleted="false" editable="true" stored="true">New
     <name>
-      <language id="en"><![CDATA[view_emeprofileresultstable]]></language>
+      <language id="en"><![CDATA[view_entityassetentityassetpage]]></language>
     </name>
   </property>
 </properties>
