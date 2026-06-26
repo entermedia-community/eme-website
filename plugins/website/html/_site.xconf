@@ -8,6 +8,8 @@
 
   <property name="allowguestregistration">true</property>
 
+  <path-action name="MediaArchiveModule.loadApplicationId"/>
+
   <permission name="view">
     <boolean value="true"/>
   </permission>
