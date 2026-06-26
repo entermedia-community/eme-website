@@ -7,6 +7,9 @@
   <property name="allowguestregistration">true</property>
   <property name="catalogid">catalog</property>
   <property name="applicationid">website</property>
+
+  <path-action name="MediaArchiveModule.loadApplicationId"/>
+
   <permission name="view">
     <boolean value="true"/>
   </permission>
