@@ -342,7 +342,8 @@ h1 span {
 	padding: 40px 24px 80px;
 }
 .services-inner,
-.people-inner {
+.people-inner,
+.add-product {
 	max-width: 1160px;
 	margin: 20px auto 40px;
 }

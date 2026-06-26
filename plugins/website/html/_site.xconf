@@ -2,12 +2,11 @@
 
 <page>
   <property name="siteid">website</property>
-  <property name="applicationid">website</property>
+  <property name="themeid">defaulttheme</property>
   <property name="fallbackdirectory">/eme</property>
-  <property name="catalogid">catalog</property>
-
   <property name="allowguestregistration">true</property>
-
+  <property name="catalogid">catalog</property>
+  <property name="applicationid">website</property>
   <permission name="view">
     <boolean value="true"/>
   </permission>
