@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<properties> 
-  <property id="emesitesmodulefields" menulevel="toplevel" moduleid="emesites" parentid="emesitesviews" path="/views/settings/modules/emesites/metadata/properties/index.html" ordering="20">Fields Setup</property>  
-  <property id="emesitesviews" moduleid="emesites" parentid="emesitesviews" path="/views/settings/modules/emesites/metadata/views/index.html" ordering="120">Edit Views</property>  
-  <property id="emesitessystemviews" moduleid="emesites" parentid="emesitesviews" path="/views/settings/modules/emesites/metadata/viewssystem/index.html" ordering="150">Application Views</property>  
-  <property id="emesitesmodulepermissions" menulevel="toplevel" moduleid="emesites" parentid="emesites" path="/views/settings/modules/emesites/permissions/enabled.html" ordering="20">Permissions</property> 
-</properties>
