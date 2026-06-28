@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EME Multi-Site Architecture</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #1a1b26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    padding: 40px;
+  }
+  .diagram {
+    max-width: 1000px;
+    width: 100%;
+  }
+  .title {
+    text-align: center;
+    color: #c0caf5;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 48px;
+    letter-spacing: -0.3px;
+  }
+  .title small {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #565f89;
+    margin-top: 6px;
+  }
+  .layer { position: relative; }
+  .layer + .layer { margin-top: 48px; }
+
+  /* === Sites Layer === */
+  .sites-row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .site-card {
+    background: #24283b;
+    border: 1px solid #565f89;
+    border-radius: 12px;
+    padding: 24px 28px;
+    text-align: center;
+    min-width: 180px;
+    position: relative;
+    transition: transform 0.2s;
+  }
+  .site-card:hover { transform: translateY(-2px); }
+  .site-card .icon { font-size: 28px; margin-bottom: 8px; }
+  .site-card .name {
+    color: #c0caf5;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .site-card .domain {
+    color: #565f89;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  .site-card .badge {
+    display: inline-block;
+    background: #3b4261;
+    color: #7aa2f7;
+    font-size: 11px;
+    padding: 2px 10px;
+    border-radius: 99px;
+    margin-top: 8px;
+    font-weight: 500;
+  }
+
+  /* === Arrows === */
+  .connector-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: relative;
+  }
+  .connector-area .line {
+    width: 2px;
+    height: 100%;
+    background: #565f89;
+    position: absolute;
+  }
+  .connector-area .branch {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    gap: calc(180px + 24px);
+    transform: translateY(-50%);
+  }
+  .connector-area svg { display: block; }
+
+  /* === Shared Library === */
+  .library {
+    background: linear-gradient(135deg, #2e3a5c, #3a2e5c);
+    border: 1px solid #565f89;
+    border-radius: 16px;
+    padding: 32px 40px;
+    text-align: center;
+    position: relative;
+  }
+  .library .icon { font-size: 32px; margin-bottom: 10px; }
+  .library .name {
+    color: #c0caf5;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+  }
+  .library .desc {
+    color: #9aa5ce;
+    font-size: 14px;
+    margin-top: 6px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+  }
+  .library .pill {
+    display: inline-flex;
+    gap: 8px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .library .pill span {
+    background: rgba(255,255,255,0.06);
+    color: #bb9af7;
+    font-size: 12px;
+    padding: 4px 14px;
+    border-radius: 99px;
+    font-weight: 500;
+  }
+  .library .pill span.blue  { color: #7aa2f7; }
+  .library .pill span.green { color: #9ece6a; }
+  .library .pill span.orange { color: #e0af68; }
+  .library .pill span.pink  { color: #f7768e; }
+</style>
+</head>
+<body>
+<div class="diagram">
+
+  <div class="title">
+    Multiple Sites Launched by a Shared Library
+    <small>EME Platform — Multi-Tenant Architecture</small>
+  </div>
+
+  <!-- Sites Layer -->
+  <div class="layer">
+    <div class="sites-row">
+      <div class="site-card">
+        <div class="icon">🖥️</div>
+        <div class="name">Finder DAM</div>
+        <div class="domain">website.org</div>
+        <div class="badge">website</div>
+      </div>
+      <div class="site-card">
+        <div class="icon">⚙️</div>
+        <div class="name">EME Admin</div>
+        <div class="domain">localhost.com</div>
+        <div class="badge">catalog</div>
+      </div>
+      <div class="site-card">
+        <div class="icon">🛒</div>
+        <div class="name">Storefront</div>
+        <div class="domain">shop.example.com</div>
+        <div class="badge">store</div>
+      </div>
+      <div class="site-card">
+        <div class="icon">🧑‍🤝‍🧑</div>
+        <div class="name">Portal</div>
+        <div class="domain">portal.example.com</div>
+        <div class="badge">portal</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Connector: branching lines -->
+  <div class="connector-area">
+    <div class="line"></div>
+    <svg width="760" height="50" viewBox="0 0 760 50" fill="none">
+      <line x1="0" y1="25" x2="760" y2="25" stroke="#565f89" stroke-width="2"/>
+      <line x1="100" y1="0" x2="100" y2="50" stroke="#565f89" stroke-width="2"/>
+      <line x1="330" y1="0" x2="330" y2="50" stroke="#565f89" stroke-width="2"/>
+      <line x1="530" y1="0" x2="530" y2="50" stroke="#565f89" stroke-width="2"/>
+      <line x1="700" y1="0" x2="700" y2="50" stroke="#565f89" stroke-width="2"/>
+      <circle cx="100" cy="25" r="3" fill="#565f89"/>
+      <circle cx="330" cy="25" r="3" fill="#565f89"/>
+      <circle cx="530" cy="25" r="3" fill="#565f89"/>
+      <circle cx="700" cy="25" r="3" fill="#565f89"/>
+      <polygon points="95,16 105,25 95,34" fill="#565f89" transform="translate(0,0)"/>
+      <polygon points="325,16 335,25 325,34" fill="#565f89"/>
+      <polygon points="525,16 535,25 525,34" fill="#565f89"/>
+      <polygon points="695,16 705,25 695,34" fill="#565f89"/>
+      <text x="380" y="14" fill="#565f89" font-size="11" text-anchor="middle" font-family="Inter, sans-serif">site-specific context root + theming</text>
+    </svg>
+  </div>
+
+  <!-- Shared Library -->
+  <div class="layer">
+    <div class="library">
+      <div class="icon">📦</div>
+      <div class="name">Shared Platform Library</div>
+      <div class="desc">
+        Core EME modules — DAM, Users, Search, Chat, Commerce, AI —
+        reused by every site without duplication.
+      </div>
+      <div class="pill">
+        <span>entityasset</span>
+        <span class="blue">Elasticsearch</span>
+        <span class="green">Stripe</span>
+        <span class="orange">AI/LLM</span>
+        <span class="pink">SMTP</span>
+        <span>user</span>
+        <span>order</span>
+        <span>chat</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Connector: single trunk -->
+  <div class="connector-area">
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+      <rect x="18" y="0" width="4" height="40" fill="#565f89"/>
+      <polygon points="15,32 20,40 25,32" fill="#565f89"/>
+    </svg>
+  </div>
+
+  <!-- Application Servers -->
+  <div class="layer">
+    <div class="library" style="background: linear-gradient(135deg, #3b4261, #1a1b26); border-color: #3b4261;">
+      <div class="icon">🗄️</div>
+      <div class="name" style="font-size: 16px;">Application Servers</div>
+      <div class="desc" style="font-size: 13px;">
+        Apache Tomcat · Caucho Resin · OpenEdit Servlet Filter
+      </div>
+    </div>
+  </div>
+
+  <!-- Legend -->
+  <div style="margin-top: 48px; text-align: center; font-size: 13px; color: #565f89;">
+    The shared library is deployed once. Each site is a separate context on the same (or multiple) app servers,
+    <br>sharing code while keeping data isolated by site context.
+  </div>
+</div>
+</body>
+</html>
