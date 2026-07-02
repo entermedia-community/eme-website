@@ -5,3 +5,4 @@ tomcat/work/*
 **/indexdefer.min.js
 webapp/WEB-INF/temp/*
 webapp/WEB-INF/data/
+*.log
