@@ -1,11 +1,12 @@
-tomcat/logs/*
 .DS_Store
+*.log
+tomcat/
 tomcat/work/*
 **/index.min.js
 **/indexdefer.min.js
 webapp/WEB-INF/temp/*
-*.log
 webapp/WEB-INF/data/catalog/generated
 webapp/WEB-INF/data/catalog/originals
 webapp/WEB-INF/data/repos
 webapp/WEB-INF/data/exports
+webapp/WEB-INF/data/system
