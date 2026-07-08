@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <data id="asset" showonsearch="true" securityenabled="false" ordering="115" moduleresultsview="table" semanticenabled="true" autocreateentities="false" isentity="true" enableuploading="true" moduleicon="image"> 
+    <name><![CDATA[Files]]></name> 
+  </data>  
+  <data id="librarycollection" isentity="true" ordering="120" moduleicon="folder-fill" showonsearch="false" securityenabled="false" moduleresultsview="table"> 
+    <name> 
+      <language id="en"><![CDATA[Teams]]></language> 
+    </name> 
+  </data>  
+  <data id="entityarticlepage" showonsearch="true" securityenabled="false" ordering="0" isentity="true" enableuploading="false" moduleicon="file-earmark" moduleresultsview="table" semanticenabled="true" autocreateentities="false" uploadsourcepath="${data.entityarticle.sourcepath}/${data.pagenum}"> 
+    <name><![CDATA[Article Pages]]></name> 
+  </data>  
+  <data id="entityarticle" showonsearch="true" securityenabled="false" ordering="0" isentity="true" enableuploading="false" moduleicon="file-earmark-post" moduleresultsview="table" semanticenabled="true" autocreateentities="false" uploadsourcepath="Articles/${data.entity_date.YYYY}/${data.name}"> 
+    <name><![CDATA[Articles]]></name> 
+  </data>  
+  <data id="entitydocument" showonsearch="true" securityenabled="false" ordering="0" isentity="true" enableuploading="false" moduleicon="file-earmark-post" moduleresultsview="table" semanticenabled="true" autocreateentities="false" uploadsourcepath="Documents/${data.entity_date.YYYY}/${data.name}"> 
+    <name><![CDATA[Documents]]></name> 
+  </data>  
+  <data id="entitydocumentpage" showonsearch="true" securityenabled="false" ordering="0" isentity="true" enableuploading="false" moduleicon="file-earmark" moduleresultsview="table" semanticenabled="true" autocreateentities="false" uploadsourcepath="${data.entitydocument.sourcepath}/${data.pagenum}"> 
+    <name><![CDATA[Document Pages]]></name> 
+  </data>  
+  <data id="entityperson" showonsearch="true" securityenabled="false" ordering="0" isentity="true" enableuploading="false" moduleicon="person" moduleresultsview="gallery" semanticenabled="false" autocreateentities="false" customname="${data.firstName} ${data.lastName}" uploadsourcepath="People/${data.firstName} ${data.lastName}"> 
+    <name><![CDATA[Person]]></name> 
+  </data>  
+  <data id="entitywebcontent" showonsearch="false" securityenabled="false" ordering="0" semanticenabled="false" autocreateentities="false" isentity="true" enableuploading="false">
+    <name><![CDATA[Web Content]]></name>
+  </data>
+</root>
